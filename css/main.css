@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    border: 1px solid #6bd4b1;
+    -webkit-text-fill-color: #2A293E;
+    -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+body{
+    
+    margin: auto;
+    font-family: "Spartan";
+    padding: 10px 10px;
+    font-size: 12pt;
+
+}
+
+
+
+.header {
+    
+    height: 25%;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.announcements{
+    
+    height: 2%;
+    width: 100%;
+}
+.color{
+    
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    background: linear-gradient(to right, #0099ff 0%, #66ccff 100%);
+}
+.greetings{
+    height: 250px;
+    
+}
+
+.activities{
+
+    padding: 10px 10px 10px 20px;
+}
+.myApps{
+    padding: 10px 10px 10px 20px;
+    
+}
+.about{
+
+    padding: 10px 10px 10px 20px;
+}
+.footer{
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    
+}
+
+::selection {
+    background: #ffc7b8;
+}
+footer a i{
+    
+    font-size: 50px;
+    text-decoration: none;
+    color: #195190FF;
+
+}
+footer {
+    display: inline-block;
+
+}
+footer a{
+    margin: 10px 10px;
+}
