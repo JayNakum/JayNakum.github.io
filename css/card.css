@@ -22,7 +22,9 @@
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    background: linear-gradient(to top, #0099ff 0%, #66ccff 100%);
+    /* background: linear-gradient(to top, #0099ff 0%, #66ccff 100%); */
+    background-color: #171717;
+    color: white;
 }
 
 
