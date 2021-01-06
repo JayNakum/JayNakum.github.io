@@ -17,7 +17,8 @@ body{
     font-family: "Spartan";
     padding: 10px 10px;
     font-size: 12pt;
-    background: linear-gradient(to left ,#434343, #000000);
+    /* background: linear-gradient(to left ,#434343, #000000); */
+    background-color: #171717;
     color: white;
 }
 
@@ -45,7 +46,7 @@ body{
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     /* background: linear-gradient(to right, #0099ff 0%, #66ccff 100%); */
-    background-color: #171717;
+    background: linear-gradient(to top ,#434343 0%, #000000 100%);
     color: white;
 }
 .greetings{

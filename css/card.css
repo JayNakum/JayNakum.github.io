@@ -24,7 +24,7 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     /* background: linear-gradient(to top, #0099ff 0%, #66ccff 100%); */
-    background-color: #171717;
+    background: linear-gradient(to bottom ,#434343 0%, #000000 100%);
     color: white;
 }
 
