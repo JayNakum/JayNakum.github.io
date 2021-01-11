@@ -31,10 +31,10 @@ body{
     font-weight: bolder;
 
 }
-/* .logo{
+.logo{
     
-    position: relative;
-} */
+    position: absolute;
+} 
 .announcements{
     
     height: 2%;
