@@ -17,9 +17,8 @@ body{
     font-family: "Spartan";
     padding: 10px 10px;
     font-size: 12pt;
-    /* background: linear-gradient(to left ,#434343, #000000); */
-    background-color: #171717;
-    color: white;
+    
+    
 }
 
 
@@ -30,8 +29,12 @@ body{
     width: 100%;
     margin-top: 10px;
     font-weight: bolder;
-}
 
+}
+.logo{
+    
+    position: absolute;
+}
 .announcements{
     
     height: 2%;
@@ -40,17 +43,18 @@ body{
 .color{
     
     background: rgba( 255, 255, 255, 0.25 );
-    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    color: white;
     box-shadow: 0 8px 32px 0 rgba( 128, 128, 128, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    /* background: linear-gradient(to right, #0099ff 0%, #66ccff 100%); */
-    background: linear-gradient(to top ,#434343 0%, #000000 100%);
-    color: white;
+    background-color: #171717;
+    
+    
 }
 .greetings{
     height: 250px;
+    color: rgb(182, 44, 103);
     
 }
 
@@ -70,6 +74,7 @@ body{
     height: 25%;
     width: 100%;
     margin: 0;
+    padding: 10px 10px;
     
 }
 
@@ -80,8 +85,8 @@ footer a i{
     
     font-size: 50px;
     text-decoration: none;
-    /* color: #195190FF; */
-    color: white;
+    /*color: #195190FF;    */
+    color: rgb(182, 44, 103);
 
 }
 footer {
