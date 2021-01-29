@@ -34,15 +34,18 @@
     box-shadow: black 3px 3px 3px;
     transition-duration: .5s;
     z-index: 2;
+    text-decoration: none;
 }
 
 .card .crd title{
     margin: auto;
     font-weight: bold;
+    text-decoration: none;
 }
 .card .crd title content{
     margin: auto;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .card .img{
@@ -50,4 +53,8 @@
     width: 290px;
     margin-top: 10px;
     border-radius: 7px;
+}
+
+a{
+    text-decoration: none;
 }
