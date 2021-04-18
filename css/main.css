@@ -10,40 +10,26 @@ textarea:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
     transition: background-color 5000s ease-in-out 0s;
 }
-
 body{
-    
     margin: auto;
     font-family: "Spartan";
     padding: 10px 10px;
     font-size: 12pt;
-    
-    
 }
-
 html {
     scroll-behavior: smooth;
-  }
-
+}
 .header {
-    
     height: 25%;
     width: 100%;
     margin-top: 10px;
     font-weight: bolder;
-
 }
-
-    /* .logo{
-        position: absolute;
-    } */
 .announcements{
-    
     height: 2%;
     width: 100%;
 }
 .color{
-    
     background: rgba( 255, 255, 255, 0.25 );
     color: white;
     box-shadow: 0 8px 32px 0 rgba( 128, 128, 128, 0.37 );
@@ -51,50 +37,35 @@ html {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     background-color: #171717;
-    
-    
 }
 .greetings{
     height: 150px;
     color: rgb(182, 44, 103);
-    
 }
-
 .activities{
     text-decoration: none;
     padding: 10px 10px 10px 20px;
 }
 .myApps{
     padding: 10px 10px 10px 20px;
-    
 }
 .about{
-
     padding: 10px 10px 10px 20px;
 }
 .footer{
-    
     width: 100%;
-    
     padding: 10px 10px;
-    
 }
-
 ::selection {
     background: silver;
 }
 footer a i{
-    
     font-size: 50px;
     text-decoration: none;
-    /*color: #195190FF;    */
     color: rgb(125, 30, 70);
-    
-
 }
 footer {
     display: inline-block;
-
 }
 footer a{
     margin: 10px 10px;
